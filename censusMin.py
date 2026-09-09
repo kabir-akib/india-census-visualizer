@@ -96,7 +96,7 @@ if plot:
           
             map=dict(
             center=dict(lat=20.5937, lon=78.9629),
-            zoom=zoom_level
+            
         )
         )
         
