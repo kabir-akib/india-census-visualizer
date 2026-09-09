@@ -93,7 +93,11 @@ if plot:
             template='plotly_dark',
             paper_bgcolor='rgba(0,0,0,0)',
             plot_bgcolor='rgba(0,0,0,0)',
-            
+          
+            map=dict(
+            center=dict(lat=20.5937, lon=78.9629),
+            zoom=zoom_level
+        )
         )
         
         st.plotly_chart(fig,use_container_width=True)
