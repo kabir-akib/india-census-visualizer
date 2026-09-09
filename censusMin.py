@@ -45,7 +45,7 @@ if plot:
     st.text('Color represent secodary perameter')
     
     if selected_state=='Overall India':
-           fig=px.scatter_mapb(df,
+           fig=px.scatter_map(df,
                                  lat='Latitude',
                                  lon='Longitude',
                                  size=primary,
